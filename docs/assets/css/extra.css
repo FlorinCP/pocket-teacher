@@ -1,0 +1,28 @@
+:root {
+  --md-primary-fg-color: #1a237e;
+  --md-primary-fg-color--light: #534bae;
+  --md-primary-fg-color--dark: #000051;
+  --md-accent-fg-color: #ffd740;
+}
+
+.conjugation-practice {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.md-typeset table:not([class]) {
+  font-size: .95rem;
+}
+
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+  font-weight: bold;
+}
+
+.exercise {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}

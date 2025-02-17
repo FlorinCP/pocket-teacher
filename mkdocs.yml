@@ -1,0 +1,99 @@
+site_name: Spanish A2 Course
+site_description: Comprehensive A2 Level Spanish Course
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: indigo
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/book-education
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - footnotes
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Module 1 - Present Tense:
+    - module1/index.md
+    - Regular Verbs: module1/regular-verbs.md
+    - Irregular Verbs: module1/irregular-verbs.md
+    - Reflexive Verbs: module1/reflexive-verbs.md
+  - Module 2 - Past Tense:
+    - module2/index.md
+    - Pretérito Perfecto: module2/preterito-perfecto.md
+    - Pretérito Indefinido: module2/preterito-indefinido.md
+    - Past Tense Contrast: module2/past-tense-contrast.md
+  - Module 3 - Essential Vocabulary:
+    - module3/index.md
+    - Personal Life: module3/personal-life.md
+    - Daily Activities: module3/daily-activities.md
+    - Environment: module3/environment.md
+  - Module 4 - Communication:
+    - module4/index.md
+    - Making Plans: module4/making-plans.md
+    - Expressing Opinions: module4/expressing-opinions.md
+    - Asking Information: module4/asking-information.md
+  - Module 5 - Grammar:
+    - module5/index.md
+    - Pronouns: module5/pronouns.md
+    - Prepositions: module5/prepositions.md
+    - Comparatives: module5/comparatives.md
+  - Module 6 - Future Tenses:
+    - module6/index.md
+    - Near Future: module6/near-future.md
+    - Simple Conditional: module6/simple-conditional.md
+  - Exercises:
+    - exercises/index.md
+    - Module 1: exercises/module1-exercises.md
+    - Module 2: exercises/module2-exercises.md
+    - Module 3: exercises/module3-exercises.md
+    - Module 4: exercises/module4-exercises.md
+    - Module 5: exercises/module5-exercises.md
+    - Module 6: exercises/module6-exercises.md
+  - Resources:
+    - resources/index.md
+    - Vocabulary Lists: resources/vocabulary-lists.md
+    - Grammar Sheets: resources/grammar-sheets.md
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/spanish-a2
+  generator: false
